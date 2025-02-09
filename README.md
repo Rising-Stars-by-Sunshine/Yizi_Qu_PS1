@@ -25,3 +25,23 @@ To ensure Stata commands run correctly, install:
 ssc install estout, replace
 ssc install outreg2, replace
 ssc install asdoc, replace
+pip install stata_kernel pandas numpy matplotlib
+import stata_setup
+stata_setup.config("/Applications/Stata", "mp")  # Adjust for your OS
+cd /home/user/stata_analysis
+stata -b do analysis.do
+install.packages("haven")
+library(haven)
+df <- read_dta("dataset.dta")
+summary(df)
+import pandas as pd
+df = pd.read_stata("dataset.dta")
+print(df.describe())
+pip install stata_kernel
+python -m stata_kernel.install
+cd "C:\Users\YourName\Documents\stata_project"
+use dataset.dta, clear
+do analysis.do
+%stata use dataset.dta, clear
+%stata summarize
+%stata regress math_score parental_absence age income
