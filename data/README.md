@@ -26,7 +26,7 @@ This study utilizes data from the **China Family Panel Studies (CFPS)** for the 
 
 ## 3. File Information
 - **File Format**: `.dta` (Stata)
-- **Size**: ~50MB per year
+- **Size**: ~500MB per year
 - **Missing Data Handling**: Standard imputation techniques applied
 - **Confidentiality**: Personally identifiable information (PII) removed
 - **URL**: https://www.isss.pku.edu.cn/cfps/sjzx/gksj/index.htm
