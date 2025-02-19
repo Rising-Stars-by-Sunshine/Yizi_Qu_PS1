@@ -29,3 +29,4 @@ This study utilizes data from the **China Family Panel Studies (CFPS)** for the 
 - **Size**: ~50MB per year
 - **Missing Data Handling**: Standard imputation techniques applied
 - **Confidentiality**: Personally identifiable information (PII) removed
+- **URL**: https://www.isss.pku.edu.cn/cfps/sjzx/gksj/index.htm
